@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AGOK Community Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>AGOK Community</h1>
+    <p>Chairman: Akuany Manyok</p>
+</header>
+
+<div class="container">
+    <h2>Community Registration Form</h2>
+
+    <form id="registrationForm">
+        <label>Full Name</label>
+        <input type="text" id="name" required>
+
+        <label>Date of Birth</label>
+        <input type="date" id="dob" required>
+
+        <label>Gender</label>
+        <select id="gender" required>
+            <option value="">Select Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+        </select>
+
+        <label>Phone Number</label>
+        <input type="tel" id="phone" required>
+
+        <label>Email Address</label>
+        <input type="email" id="email">
+
+        <label>Address</label>
+        <textarea id="address" rows="3" required></textarea>
+
+        <button type="submit">Register</button>
+
+        <div class="success-message" id="successMessage">
+            Registration Successful! Welcome to AGOK Community 🎉
+        </div>
+    </form>
+</div>
+
+<footer>
+    © 2026 AGOK Community | All Rights Reserved
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
